@@ -1,6 +1,6 @@
 :root {
-    --bs-primary-rgb: rgb;
-    --bs-link-color: #F4C2C2;
+    --bs-primary-rgb: 75, 59, 64;
+    --bs-link-color: #4B3B40;
     --bs-link-hover-color:#212529;
 }
 
@@ -9,6 +9,3 @@
     background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
-body {
-    position: relative;
-}
