@@ -1,22 +1,31 @@
 :root {
-    --bs-primary-rgb: 75, 59, 64;
-    --bs-link-color: #4B3B40;
-    --bs-link-hover-color:#212529;
+    --bs-primary-rgb: 252, 71, 90;
+    --bs-link-color:#FC475A;
+    --bs-link-hover-color:#34073D;
 }
 
-.bg-primary {
-    --bs-bg-opacity:1;
-    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+
+h1, .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 750;
+  line-height: 1.2;
+  color: #08203e;
 }
 
-.imgcontainer {
-    height: 300px;
-    margin: 10px;
+h3, .h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 750;
+  line-height: 1.2;
+  color: #c81d77;
 }
 
-.imgcontainer {
-    text-align: center;
-    margin: 50px auto;
+caption {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #f0f9a7;
+  text-align: left;
 }
 
 .img-fluid {
@@ -24,9 +33,4 @@
   height: 300px;
 }
 
-media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container 
-    max-width: 1320px;
-  }
 
-  
